@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zoaib License</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="logo.png" height="90px">
+        <h1>Zoaib Sheikh</h1>
+
+    </header>
+    <section class="license">
+        <h2>Licence</h2>
+        <p>All our <a href="https://www.linkedin.com/in/zoaib-sheikh-901645257/">website templates</a> are licensed under Creative Commons Attribution 3.0 License (CC BY 3.0). If you like to use attribution-free templates, please purchase an extended licence for a single template or for all our website templates. Just DM!</p>
+        <div class="pricing">
+            <div class="plan">
+                <h3>Single Template</h3>
+                <p class="price">$19</p>
+                <p>One Selected Template</p>
+                <p>Credit Removal Permission</p>
+                <p>1 Year of Support via our Forum</p>
+                <p>Limited to 5 domains</p>
+                <div class="payment-container">
+                    <button class="button" onclick="fakePayment()">Pay Now</button>
+                </div>
+                <div id="paypal-button-singleTemplate"></div>
+            </div>
+            <div class="plan">
+                <h3>All Templates</h3>
+                <p class="price">$129/year</p>
+                <p>Access to all templates</p>
+                <p>Access to all upcoming templates</p>
+                <p>Credit removal permission (Attribution-free)</p>
+                <p>1 year of support</p>
+                <p>Unlimited domains</p>
+                <div class="payment-container">
+                    <button class="button" onclick="fakePayment()">Pay Now</button>
+                </div>
+                <div id="paypal-button-allTemplates"></div>
+            </div>
+            <div class="plan">
+                <h3>Lifetime Membership</h3>
+                <p class="price">$349</p>
+                <p>Access to all templates</p>
+                <p>Access to all upcoming templates</p>
+                <p>Credit removal permission (Attribution-free)</p>
+                <p>Unlimited lifetime downloads</p>
+                <p>Lifetime support and updates</p>
+                <p>Unlimited domains</p>
+                <div class="payment-container">
+                    <button class="button" onclick="fakePayment()">Pay Now</button>
+                </div>
+                <div id="paypal-button-lifetimeMembership"></div>
+            </div>
+        </div>
+    </section>
+    <script src="https://www.paypal.com/sdk/js?client-id=YOUR_PAYPAL_CLIENT_ID"></script>
+    <script src="scripts.js"></script>
+    <script>
+        function fakePayment() {
+            alert("Payment successful! Thank you for your purchase.");
+            window.location.href = "thank-you.html";
+        }
+    </script>
+</body>
+</html>

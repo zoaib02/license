@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('50-Beautiful-and-Minimalist-Presentation-Backgrounds-08');
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height: 100vh; /* Make sure the body takes the full viewport height */
+}
+
+.thank-you-container{
+    
+    text-align: center;
+    padding: 50px;
+    cursor:all-scroll;
+}
